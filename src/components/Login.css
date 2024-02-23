@@ -1,0 +1,198 @@
+.login_section_div {
+    height: 99vh;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .login_section,
+  .register_section {
+    height: 100vh;
+    /* overflow-y: hidden; */
+    /* height: 100%; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2%;
+    padding-left: 10%;
+    align-items: center;
+  }
+  
+  
+  .login_box,
+  .register_box {
+    /* border: 1px solid red; */
+    width: 30rem;
+    border-radius: 10px;
+    padding: 30px 10px;
+    background-color: #fff;
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .register_box {
+    width: 31rem;
+    padding: 12px 10px
+  }
+
+  .login_box h2,
+  .register_box h2 {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 3px
+  }
+  
+  .login_box p,
+  .register_box p {
+    text-align: center;
+    font-size: 21px;
+    /* font-weight: 500; */
+    color: gray;
+    padding-bottom: 43px;
+  }
+  
+  .login_form,
+  .register_form {
+    /* border: 1px solid red; */
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .login_form input,
+  .register_form input {
+    width: 100%;
+    border-radius: 5px;
+    /* margin-bottom: 25px; */
+    /* background-color: #e6e6e6; */
+    outline: none;
+    font-size: 16px;
+    padding: 9px 16px;
+  }
+  
+  .login-btn,
+  .register-btn {
+    padding: 9px;
+    background-color: #5c218b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* .login-btn:hover , .register-btn:hover {
+    background: linear-gradient(to top, #ff3399 20%, #ff5050 100%);
+  } */
+  
+  .login_form>div,
+  .register_form>div {
+    margin-bottom: 30px;
+  }
+  
+  .login_form label,
+  .register_form label {
+    font-size: 16px;
+    margin-bottom: 6px;
+    display: block;
+    font-weight: 400;
+    margin-left: 0.2rem;
+  }
+  
+  .login_form .pwd,
+  .register_form .pwd {
+    font-size: 16px;
+    color: #000;
+    /* font-weight: 500; */
+    display: block;
+    margin-top: 8px;
+    color: grey;
+    margin-left: 68%;
+    text-transform: capitalize;
+  }
+  
+  .reg {
+    font-size: 15px;
+    color: #000;
+    /* font-weight: 500; */
+    /* color: blue !important; */
+    cursor: pointer;
+    color: grey;
+  }
+  
+  .reg_parent {
+    margin-top: 15px;
+    text-align: center;
+    font-size:15px;
+  }
+  
+  .main_box {
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    /* border: 1px solid red; */
+    left: 0;
+    /* background: #eaf4ff; */
+    background-image: url('../images/image\ 293.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    top: 0;
+    /* bottom: 0; */
+    height: 100%;
+    overflow-y: unset;
+  }
+  
+  .invalid {
+    font-size: 14px;
+      color: red;
+      padding-left: 5px
+  }
+ 
+  .pwd_visibilty {
+    position: relative;
+  }
+  
+  .pwd_visibility_icon {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    cursor: pointer;
+    color:lightgrey;
+  }
+  
+  .form-control:focus {
+    box-shadow: unset !important;
+    border-color: #86b7fe78 !important;
+  }
+  
+
+  .login_form input::placeholder , .register_form input::placeholder{
+    font-size: 15px;
+  }
+  
+  .main_div {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .login_form>div, .register_form>div {
+    position: relative;
+  }
+  .login_form > div > label, .register_form>div>label {
+    position: absolute;
+    top: -14px;
+    left: 14px;
+    background: #fff;
+    z-index: 2;
+    font-size: 17px;
+    color: grey;
+  }

@@ -1,0 +1,20 @@
+header {
+    background-color: #662672;
+    padding: 12px 0;
+    height: 9vh;
+}
+.header_logo {
+    width: 179px;
+    height: auto;
+}
+.right_img .material-symbols-outlined {
+    font-size: 46px;
+    color: #fff;
+}
+.avtar_style {
+    background: #fff !important;
+    color: purple !important;
+    font-weight: 600 !important;
+    font-size: 31px !important;
+    font-family: unset !important;
+}
